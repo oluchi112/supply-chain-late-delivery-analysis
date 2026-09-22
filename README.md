@@ -12,6 +12,8 @@ Late deliveries cost more than a delayed parcel. They trigger SLA penalties, exp
 ## Approach
 - **Data:** DataCo Smart Supply Chain dataset (public, Kaggle): order-item level records covering orders, shipping, customers and products. See [`/data`](data/README.md).
 - **Cleaning (Power Query):** removed customer personal data and unused columns, parsed order and shipping dates with the correct (US) locale, set numeric types, and added a **DelayDays** column (actual shipping days − scheduled shipping days).
+
+![Removing customer personal data in Power Query](screenshots/01-power-query-column-selection.png)
 - **Key measures so far:** On-Time Rate, Late Orders, Avg Delay (late orders only), Total Orders (Shipped), On-Time Rate change vs prior period.
 
 ## Report Pages
