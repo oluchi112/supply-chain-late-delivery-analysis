@@ -59,7 +59,7 @@ Cutting late deliveries on First Class by 20% would avoid 5,302 late orders and 
 Power BI Desktop (Power Query, DAX, what-if parameters)
 
 ## How to Open
-The Power BI project file will be added once the full model export is ready.
+Open `PowerBI/SupplyChainDashboard.pbix` in Power BI Desktop (Windows).
 
 ---
 **Author:** Oluchukwu Ejiofor · [Email](mailto:Oluchukwu.b.ejiofor@gmail.com)
